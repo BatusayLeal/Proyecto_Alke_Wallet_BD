@@ -1,0 +1,92 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-web/4.1.0/spring-boot-starter-web-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-jackson/4.1.0/spring-boot-starter-jackson-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-jackson/4.1.0/spring-boot-jackson-4.1.0.jar:/home/clealp/.m2/repository/tools/jackson/core/jackson-databind/3.1.4/jackson-databind-3.1.4.jar:/home/clealp/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.21/jackson-annotations-2.21.jar:/home/clealp/.m2/repository/tools/jackson/core/jackson-core/3.1.4/jackson-core-3.1.4.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/4.1.0/spring-boot-starter-tomcat-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat-runtime/4.1.0/spring-boot-starter-tomcat-runtime-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-web-server/4.1.0/spring-boot-web-server-4.1.0.jar:/home/clealp/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/11.0.22/tomcat-embed-core-11.0.22.jar:/home/clealp/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/11.0.22/tomcat-embed-el-11.0.22.jar:/home/clealp/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/11.0.22/tomcat-embed-websocket-11.0.22.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-tomcat/4.1.0/spring-boot-tomcat-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-http-converter/4.1.0/spring-boot-http-converter-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/spring-web/7.0.8/spring-web-7.0.8.jar:/home/clealp/.m2/repository/org/springframework/spring-beans/7.0.8/spring-beans-7.0.8.jar:/home/clealp/.m2/repository/io/micrometer/micrometer-observation/1.17.0/micrometer-observation-1.17.0.jar:/home/clealp/.m2/repository/io/micrometer/micrometer-commons/1.17.0/micrometer-commons-1.17.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-webmvc/4.1.0/spring-boot-webmvc-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-servlet/4.1.0/spring-boot-servlet-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/spring-webmvc/7.0.8/spring-webmvc-7.0.8.jar:/home/clealp/.m2/repository/org/springframework/spring-aop/7.0.8/spring-aop-7.0.8.jar:/home/clealp/.m2/repository/org/springframework/spring-expression/7.0.8/spring-expression-7.0.8.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/4.1.0/spring-boot-starter-jdbc-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter/4.1.0/spring-boot-starter-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-logging/4.1.0/spring-boot-starter-logging-4.1.0.jar:/home/clealp/.m2/repository/ch/qos/logback/logback-classic/1.5.34/logback-classic-1.5.34.jar:/home/clealp/.m2/repository/ch/qos/logback/logback-core/1.5.34/logback-core-1.5.34.jar:/home/clealp/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.25.4/log4j-to-slf4j-2.25.4.jar:/home/clealp/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.4/log4j-api-2.25.4.jar:/home/clealp/.m2/repository/org/slf4j/jul-to-slf4j/2.0.18/jul-to-slf4j-2.0.18.jar:/home/clealp/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar:/home/clealp/.m2/repository/org/yaml/snakeyaml/2.6/snakeyaml-2.6.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-jdbc/4.1.0/spring-boot-jdbc-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-sql/4.1.0/spring-boot-sql-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-transaction/4.1.0/spring-boot-transaction-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-persistence/4.1.0/spring-boot-persistence-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/spring-tx/7.0.8/spring-tx-7.0.8.jar:/home/clealp/.m2/repository/org/springframework/spring-jdbc/7.0.8/spring-jdbc-7.0.8.jar:/home/clealp/.m2/repository/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar:/home/clealp/.m2/repository/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot/4.1.0/spring-boot-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/spring-context/7.0.8/spring-context-7.0.8.jar:/home/clealp/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/4.1.0/spring-boot-autoconfigure-4.1.0.jar:/home/clealp/.m2/repository/org/springframework/spring-core/7.0.8/spring-core-7.0.8.jar:/home/clealp/.m2/repository/commons-logging/commons-logging/1.3.6/commons-logging-1.3.6.jar:/home/clealp/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+25
+-sourcepath
+'/home/clealp/Documents/Proyecto_Alke_Wallet_BD/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'alke-wallet 0.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'alke-wallet 0.0.1-SNAPSHOT API'
+com.alkewallet
+com.alkewallet.controller
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-web/4.1.0/spring-boot-starter-web-4.1.0.jar = 1781114335000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-jackson/4.1.0/spring-boot-starter-jackson-4.1.0.jar = 1781114334000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-jackson/4.1.0/spring-boot-jackson-4.1.0.jar = 1781114340000
+/home/clealp/.m2/repository/tools/jackson/core/jackson-databind/3.1.4/jackson-databind-3.1.4.jar = 1780087358000
+/home/clealp/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.21/jackson-annotations-2.21.jar = 1768776434000
+/home/clealp/.m2/repository/tools/jackson/core/jackson-core/3.1.4/jackson-core-3.1.4.jar = 1780086646000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/4.1.0/spring-boot-starter-tomcat-4.1.0.jar = 1781114342000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat-runtime/4.1.0/spring-boot-starter-tomcat-runtime-4.1.0.jar = 1781114336000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-web-server/4.1.0/spring-boot-web-server-4.1.0.jar = 1781114336000
+/home/clealp/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/11.0.22/tomcat-embed-core-11.0.22.jar = 1777668006000
+/home/clealp/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/11.0.22/tomcat-embed-el-11.0.22.jar = 1777668013000
+/home/clealp/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/11.0.22/tomcat-embed-websocket-11.0.22.jar = 1777668015000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-tomcat/4.1.0/spring-boot-tomcat-4.1.0.jar = 1781114341000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-http-converter/4.1.0/spring-boot-http-converter-4.1.0.jar = 1781114337000
+/home/clealp/.m2/repository/org/springframework/spring-web/7.0.8/spring-web-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/org/springframework/spring-beans/7.0.8/spring-beans-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/io/micrometer/micrometer-observation/1.17.0/micrometer-observation-1.17.0.jar = 1780907523000
+/home/clealp/.m2/repository/io/micrometer/micrometer-commons/1.17.0/micrometer-commons-1.17.0.jar = 1780907523000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-webmvc/4.1.0/spring-boot-webmvc-4.1.0.jar = 1781114337000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-servlet/4.1.0/spring-boot-servlet-4.1.0.jar = 1781114339000
+/home/clealp/.m2/repository/org/springframework/spring-webmvc/7.0.8/spring-webmvc-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/org/springframework/spring-aop/7.0.8/spring-aop-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/org/springframework/spring-expression/7.0.8/spring-expression-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/4.1.0/spring-boot-starter-jdbc-4.1.0.jar = 1781114338000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter/4.1.0/spring-boot-starter-4.1.0.jar = 1781114336000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-starter-logging/4.1.0/spring-boot-starter-logging-4.1.0.jar = 1781114337000
+/home/clealp/.m2/repository/ch/qos/logback/logback-classic/1.5.34/logback-classic-1.5.34.jar = 1780303966000
+/home/clealp/.m2/repository/ch/qos/logback/logback-core/1.5.34/logback-core-1.5.34.jar = 1780303966000
+/home/clealp/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.25.4/log4j-to-slf4j-2.25.4.jar = 1774427448000
+/home/clealp/.m2/repository/org/apache/logging/log4j/log4j-api/2.25.4/log4j-api-2.25.4.jar = 1774427462000
+/home/clealp/.m2/repository/org/slf4j/jul-to-slf4j/2.0.18/jul-to-slf4j-2.0.18.jar = 1778610849000
+/home/clealp/.m2/repository/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar = 1708008216000
+/home/clealp/.m2/repository/org/yaml/snakeyaml/2.6/snakeyaml-2.6.jar = 1772138172000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-jdbc/4.1.0/spring-boot-jdbc-4.1.0.jar = 1781114337000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-sql/4.1.0/spring-boot-sql-4.1.0.jar = 1781114337000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-transaction/4.1.0/spring-boot-transaction-4.1.0.jar = 1781114338000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-persistence/4.1.0/spring-boot-persistence-4.1.0.jar = 1781114341000
+/home/clealp/.m2/repository/org/springframework/spring-tx/7.0.8/spring-tx-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/org/springframework/spring-jdbc/7.0.8/spring-jdbc-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar = 1755604342000
+/home/clealp/.m2/repository/org/slf4j/slf4j-api/2.0.18/slf4j-api-2.0.18.jar = 1778610849000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot/4.1.0/spring-boot-4.1.0.jar = 1781114343000
+/home/clealp/.m2/repository/org/springframework/spring-context/7.0.8/spring-context-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/4.1.0/spring-boot-autoconfigure-4.1.0.jar = 1781114342000
+/home/clealp/.m2/repository/org/springframework/spring-core/7.0.8/spring-core-7.0.8.jar = 1780940551000
+/home/clealp/.m2/repository/commons-logging/commons-logging/1.3.6/commons-logging-1.3.6.jar = 1772665700000
+/home/clealp/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar = 1721163610000
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/src/main/java = 1782428098000
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/element-list = 1784081786918
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/overview-tree.html = 1784081786962
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/index.html = 1784081786965
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/allclasses-index.html = 1784081786979
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/allpackages-index.html = 1784081786981
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/module-search-index.js = 1784081786982
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/package-search-index.js = 1784081786982
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/type-search-index.js = 1784081786983
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/member-search-index.js = 1784081786983
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/tag-search-index.js = 1784081786983
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/index-all.html = 1784081786992
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/search.html = 1784081786994
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/overview-summary.html = 1784081786995
+/home/clealp/Documents/Proyecto_Alke_Wallet_BD/target/reports/apidocs/help-doc.html = 1784081786999

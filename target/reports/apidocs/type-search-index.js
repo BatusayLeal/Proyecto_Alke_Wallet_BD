@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.alkewallet","l":"AlkeWalletApplication"},{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"com.alkewallet.controller","l":"AuthController"},{"p":"com.alkewallet.controller","l":"TransaccionController"},{"p":"com.alkewallet.controller","l":"UsuarioController"}];updateSearchResults();

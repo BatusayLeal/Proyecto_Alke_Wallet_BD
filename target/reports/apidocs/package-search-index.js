@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"l":"com.alkewallet"},{"l":"com.alkewallet.controller"}];updateSearchResults();
