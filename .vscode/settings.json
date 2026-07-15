@@ -2,5 +2,6 @@
     "java.project.referencedLibraries": [
         "backend-java/lib/mysql-connector-j-8.0.31.jar"
     ],
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
