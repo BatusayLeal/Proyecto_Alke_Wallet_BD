@@ -63,6 +63,10 @@ Model
 Representa las entidades del dominio.
 
 Estructura del Proyecto
+
+## Estructura del proyecto
+
+
 alke-wallet
 │
 ├── pom.xml
@@ -90,6 +94,8 @@ alke-wallet
 │   └── test
 │
 └── logs
+
+
 Requisitos
 
 Antes de ejecutar el proyecto asegúrese de contar con:
